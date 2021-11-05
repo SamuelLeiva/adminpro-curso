@@ -13,6 +13,7 @@ import { HeaderComponent } from './shared/header/header.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { ProgressComponent } from './pages/progress/progress.component';
 import { Graphic1Component } from './pages/graphic1/graphic1.component';
+import { PagesComponent } from './pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { Graphic1Component } from './pages/graphic1/graphic1.component';
     RegisterComponent,
     ProgressComponent,
     Graphic1Component,
+    PagesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
